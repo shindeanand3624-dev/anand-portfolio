@@ -846,14 +846,14 @@ footer {
 
 /* Image outside the box */
 .about-image {
-    width: 350px;
+    width: 340px;
     flex-shrink: 0;
 }
 
 .about-image img {
-    width: 350px;
+    width: 340px;
     height: 550px;
     object-fit: cover;
-    border-radius: 25px;
+    border-radius: 20px;
     display: block;
 }
