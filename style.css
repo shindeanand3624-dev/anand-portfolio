@@ -814,3 +814,46 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+/* ================= ABOUT SECTION ================= */
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+/* Text box */
+.about-box {
+    flex: 1;
+    padding: 35px;
+}
+
+/* About text */
+.about-box h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about-box p {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 18px;
+}
+
+/* Image outside the box */
+.about-image {
+    width: 350px;
+    flex-shrink: 0;
+}
+
+.about-image img {
+    width: 350px;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 25px;
+    display: block;
+}
